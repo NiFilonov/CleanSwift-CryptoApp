@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		37360E7C536ADDDCDD245954 /* Pods_CleanSwift_CryptoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225DC81EA222D44D3E51A56C /* Pods_CleanSwift_CryptoApp.framework */; };
+		4F5E28E82D9DAD990060448D /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5E28E72D9DAD990060448D /* UIHelper.swift */; };
 		4F71E7242D9AE03D0049EA3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F71E7232D9AE03D0049EA3A /* AppDelegate.swift */; };
 		4F71E72D2D9AE0400049EA3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F71E72C2D9AE0400049EA3A /* Assets.xcassets */; };
 		4F71E7302D9AE0400049EA3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F71E72E2D9AE0400049EA3A /* LaunchScreen.storyboard */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		225DC81EA222D44D3E51A56C /* Pods_CleanSwift_CryptoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanSwift_CryptoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F06669C00BB2403B6968732 /* Pods-CleanSwift-CryptoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanSwift-CryptoApp.debug.xcconfig"; path = "Target Support Files/Pods-CleanSwift-CryptoApp/Pods-CleanSwift-CryptoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4F5E28E72D9DAD990060448D /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		4F71E7202D9AE03D0049EA3A /* CleanSwift-CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CleanSwift-CryptoApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F71E7232D9AE03D0049EA3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F71E72C2D9AE0400049EA3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +62,13 @@
 				225DC81EA222D44D3E51A56C /* Pods_CleanSwift_CryptoApp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F5E28E62D9DAD4F0060448D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		4F71E7172D9AE03D0049EA3A = {
@@ -124,6 +133,7 @@
 		4F71E73A2D9AE1970049EA3A /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				4F5E28E62D9DAD4F0060448D /* Assets */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -131,6 +141,7 @@
 		4F71E73B2D9AE1A40049EA3A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				4F5E28E72D9DAD990060448D /* UIHelper.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -323,6 +334,7 @@
 				4F71E7432D9AE3BC0049EA3A /* ErrorInfo.swift in Sources */,
 				4F71E7412D9AE3680049EA3A /* NetworkRequestInterceptor.swift in Sources */,
 				4F71E74B2D9AE7020049EA3A /* AssetDTO.swift in Sources */,
+				4F5E28E82D9DAD990060448D /* UIHelper.swift in Sources */,
 				4F71E73F2D9AE3290049EA3A /* NetworkService.swift in Sources */,
 				4F71E74E2D9AE7BC0049EA3A /* HTTPHeader+Template.swift in Sources */,
 				4F71E7452D9AE4260049EA3A /* NetworkService+ExchangeRate.swift in Sources */,
